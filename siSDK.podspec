@@ -5,8 +5,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'An Objective-C client for the Pusher.com service'
   spec.homepage     = 'https://github.com/omarGSR/siSDK.git'
   spec.author       = 'Luke Redpath'
-  spec.source       = { :git => 'git://github.com/omarGSR/siSDK.git', :tag => 'v1.3' }
-  # spec.source_files = 'Library/*'
-  # spec.requires_arc = true
-  # spec.dependency 'SocketRocket'
+  spec.source       = { :git => 'https://github.com/omarGSR/siSDK.git', :tag => '1.3' }
+
 end
