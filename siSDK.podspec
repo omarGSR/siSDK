@@ -26,9 +26,13 @@ Pod::Spec.new do |s|
 
 
 s.source_files  = "clasea.h"
-# s.source_files = "borrar2/*.{h,m}", "*.{h,m}"
+# s.source_files = "/borrar2/*.{h,m}", "*.{h,m}"
 # s.public_header_files = "borrar2/*.h", "*.h"
  
+ s.subspec 'Core' do |sp|
+  sp.source_files = "borrar2/*.{h,m}"
+  sp.public_header_files = "borrar2/*.h"
+ end
   
 #  s.subspec 'Core' do |sp|
   
