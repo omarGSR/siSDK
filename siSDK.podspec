@@ -12,6 +12,10 @@ Pod::Spec.new do |s|
       }
       
   s.author           = { "Omar Fazal" => "omar.fazal@slashmobility.com" }
+
+# git@bitbucket.org:silenGSR/sdk-project.git
+# https://silenGSR@bitbucket.org/silenGSR/sdk-project.git
+
   s.source           = { :git => "https://silenGSR@bitbucket.org/silenGSR/sdk-project.git", :tag => s.version.to_s }
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
@@ -21,7 +25,7 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
- s.source_files = "*.{h,m}"
+ s.source_files = "*.{h,m}", "testSDK.framework"
  s.public_header_files = "*.h"
 # s.source_files = 'Library/src/**/*.{h,m}'
 
