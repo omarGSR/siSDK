@@ -1,0 +1,23 @@
+Pod::Spec.new do |s|
+  s.name             = "miSDK"
+  s.version          = "0.0.83"
+  s.summary          = "A collection of reusable components from TSB."
+  s.homepage         = "http://www.slashmobility.com/"
+  
+  s.license          = {
+          :type => 'Copyright',
+          :text => <<-LICENSE
+            Copyright © 2015 Slashmobility. All Rights Reserved.
+            LICENSE
+      }
+      
+  s.author           = { "Omar Fazal" => "omar.fazal@slashmobility.com" }
+  s.source           = { :git => "https://github.com/omarGSR/siSDK.git", :tag => s.version.to_s }
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.homepage     = "https://github.com/omarGSR/siSDK.git"
+s.frameworks = 'SomeFramework', 'AnotherFramework'
+s.source_files = "siSDK/*"
+
+  
+end
