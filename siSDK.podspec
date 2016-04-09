@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "siSDK"
-  s.version          = "0.0.85"
+  s.version          = "0.0.90"
   s.summary          = "A collection of reusable components from TSB."
   s.homepage         = "http://www.slashmobility.com/"
   
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-s.source_files = "borrar2/*.{h,m}"
+s.source_files = "testSDK/*.{h,m}"
 
   
 end
