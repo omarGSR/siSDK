@@ -21,18 +21,21 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-# s.source_files = "testSDK/*.{h,m}"
+# s.source_files = "borrar2/*.{h,m}"
 # s.source_files = 'Library/src/**/*.{h,m}'
-s.source_files = "testSDK/**/*.{h,m}"
+
+s.source_files = "borrar2/*.{h,m}", "*.{h,m}"
+s.public_header_files = "borrar2/*.h", "*.h"
+ 
   
-  s.subspec 'Core' do |sp|
+#  s.subspec 'Core' do |sp|
   
-  sp.source_files = "testSDK/*.{h,m}", "testSDK/Managers/*.{h,m}"
-  sp.source_files = "testSDK/*.h"
+#  sp.source_files = "testSDK/*.{h,m}", "testSDK/Managers/*.{h,m}"
+#  sp.source_files = "testSDK/*.h"
 
  #   sp.source_files = "IDKComponents/*.{h,m}", "IDKComponents/Categories/*.{h,m}", "IDKComponents/ThemeManager/*.{h,m}"
  #   sp.public_header_files = 'IDKComponents/*.h', "IDKComponents/Categories/*.h", "IDKComponents/ThemeManager/*.h"
  #   sp.resources = ['IDKComponents/*.xib', 'IDKComponents/IDKComponentsImages.xcassets', 'IDKComponents/*.lproj']
 
-  end
+#  end
 end
