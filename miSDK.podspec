@@ -16,8 +16,12 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
   s.homepage     = "https://github.com/omarGSR/siSDK.git"
-s.frameworks = 'SomeFramework', 'AnotherFramework'
-s.source_files = "siSDK/*"
+  s.platform     = :ios, '5.1'
+# s.source_files = 'HorizontalPicker/*.{h,m}'
+# s.framework    = 'QuartzCore'
+# s.frameworks = 'SomeFramework', 'AnotherFramework'
+
+s.source_files = "testSDK/*"
 
   
 end
