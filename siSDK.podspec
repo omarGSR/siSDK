@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "miSDK"
+  s.name             = "siSDK"
   s.version          = "0.0.83"
   s.summary          = "A collection of reusable components from TSB."
   s.homepage         = "http://www.slashmobility.com/"
