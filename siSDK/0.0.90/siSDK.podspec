@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-s.source_files = "testSDK/*.{h,m}"
+s.source_files = "testSDK/*"
 
   
 end
