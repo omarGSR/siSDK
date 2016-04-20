@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
- s.source_files = "*.h"
+ s.source_files = "testSDK.framework/Headers/*.h"
  #s.public_header_files = "testSDK.framework/Headers/*.h"
 # s.source_files = 'Library/src/**/*.{h,m}'
 s.library = 'testSDK'
