@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "siSDK"
-  s.version          = "0.0.90"
+  s.version          = "0.0.91"
   s.summary          = "A collection of reusable components from TSB."
   s.homepage         = "http://www.slashmobility.com/"
   
