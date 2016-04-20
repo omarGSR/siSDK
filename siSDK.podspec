@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 #  s.source           = { :git => "https://silenGSR@bitbucket.org/silenGSR/sdk-project.git", :tag => s.version.to_s }
 
   s.source       = { :git => "https://github.com/omarGSR/siSDK.git", :tag => s.version.to_s }
-  s.platform         = :ios, '7.0'
+  s.platform         = :ios, '8.0'
   s.requires_arc     = true
   s.homepage     = "https://github.com/omarGSR/siSDK.git"
-  s.platform     = :ios, '5.1'
+ 
 # s.source_files = 'HorizontalPicker/*.{h,m}'
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
@@ -30,15 +30,15 @@ Pod::Spec.new do |s|
  s.source_files = '*.{h,m}'
 
 
-#s.vendored_frameworks = 'testSDK.framework'
-#s.public_header_files = 'testSDK.framework/Headers/*.h'
-#s.preserve_paths      = 'testSDK.framework'
-#s.frameworks          = 'Foundation', 'testSDK'
-#s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)' }
+s.vendored_frameworks = 'testSDK.framework'
+s.public_header_files = 'testSDK.framework/Headers/*.h'
+s.preserve_paths      = 'testSDK.framework'
+s.frameworks          = 'Foundation', 'testSDK'
+s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)' }
 
 
 
- #s.public_header_files = "testSDK.framework/Headers/*.h"
+s.public_header_files = "testSDK.framework/Headers/*.h"
 # s.source_files = 'Library/src/**/*.{h,m}'
 #s.library = 'testSDK'
 
