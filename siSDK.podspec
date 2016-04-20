@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "siSDK"
-  s.version          = "0.0.92"
+  s.version          = "0.0.93"
   s.summary          = "A collection of reusable components from TSB."
   s.homepage         = "http://www.slashmobility.com/"
   
@@ -27,7 +27,17 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
- s.source_files = "testSDK.framework/Headers/*.h"
+# s.source_files = "testSDK.framework"
+
+
+
+s.public_header_files = 'testSDK.framework/Headers/*.h'
+s.preserve_paths      = 'testSDK.framework'
+s.frameworks          = 'Foundation', 'testSDK'
+s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)' }
+
+
+
  #s.public_header_files = "testSDK.framework/Headers/*.h"
 # s.source_files = 'Library/src/**/*.{h,m}'
 s.library = 'testSDK'
