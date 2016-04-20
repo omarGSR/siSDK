@@ -27,20 +27,20 @@ Pod::Spec.new do |s|
 # s.framework    = 'QuartzCore'
 # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
-# s.source_files = "testSDK.framework"
+ s.source_files = '*.{h,m}'
 
 
-
-s.public_header_files = 'testSDK.framework/Headers/*.h'
-s.preserve_paths      = 'testSDK.framework'
-s.frameworks          = 'Foundation', 'testSDK'
-s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)' }
+#s.vendored_frameworks = 'testSDK.framework'
+#s.public_header_files = 'testSDK.framework/Headers/*.h'
+#s.preserve_paths      = 'testSDK.framework'
+#s.frameworks          = 'Foundation', 'testSDK'
+#s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(SRCROOT)' }
 
 
 
  #s.public_header_files = "testSDK.framework/Headers/*.h"
 # s.source_files = 'Library/src/**/*.{h,m}'
-s.library = 'testSDK'
+#s.library = 'testSDK'
 
 
 #s.source_files  = "clasea.h"
